@@ -1,8 +1,12 @@
 {
   "name": "TappMee",
   "description": "Blank Process",
-  "main": "Main.xaml",
+  "main": "uipath-testing_framework\\RunAllTests.xaml",
   "dependencies": {
+    "Custom.Activities.VariableComparer": "2.1.3",
+    "ExchangeSharedMailBoxActivities": "1.0.0",
+    "RBanda.TestReportGenerator.Activities": "1.4.1",
+    "SmartLogActivities": "1.0.0",
     "UiPath.Excel.Activities": "[2.5.2]",
     "UiPath.Mail.Activities": "[1.3.0]",
     "UiPath.System.Activities": "[19.3.0]",

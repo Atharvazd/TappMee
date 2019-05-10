@@ -2,6 +2,33 @@
   "Packages": [
     {
       "Package": {
+        "Id": "ExchangeSharedMailBoxActivities",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\yrn1hc\\.nuget\\packages\\exchangesharedmailboxactivities/1.0.0\\lib/ExchangeSharedMailBoxActivities.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "RBanda.TestReportGenerator.Activities",
+        "Version": "1.4.1"
+      },
+      "Assemblies": [
+        "C:\\Users\\yrn1hc\\.nuget\\packages\\rbanda.testreportgenerator.activities/1.4.1\\lib/TestReportGenerator.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "SmartLogActivities",
+        "Version": "1.0.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\yrn1hc\\.nuget\\packages\\smartlogactivities/1.0.0\\lib/DeveloperLog.dll"
+      ]
+    },
+    {
+      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.5.2"
       },
@@ -10,10 +37,10 @@
         "C:\\Users\\yrn1hc\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
-        "C:\\Users\\yrn1hc\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "C:\\Users\\yrn1hc\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\sharpziplib/1.0.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\uipath.excel.activities/2.5.2\\lib/net452/UiPath.Excel.Activities.Design.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\uipath.excel.activities/2.5.2\\lib/net452/UiPath.Excel.Activities.dll",
@@ -66,10 +93,10 @@
       },
       "Assemblies": [
         "C:\\Users\\yrn1hc\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
-        "C:\\Users\\yrn1hc\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "C:\\Users\\yrn1hc\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
@@ -93,11 +120,22 @@
         "C:\\Users\\yrn1hc\\.nuget\\packages\\uipath.vision/1.4.0\\lib/net452/UiPath.Vision.AbbyyFRECommon.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\uipath.vision/1.4.0\\lib/net452/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\uipath.vision/1.4.0\\lib/net452/UiPath.Vision.Core.dll",
-        "C:\\Users\\yrn1hc\\.nuget\\packages\\uipath.vision/1.4.0\\lib/net452/UiPath.Vision.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\uipath.vision/1.4.0\\lib/net452/UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\uipath.vision/1.4.0\\lib/net452/UiPath.Vision.Microsoft.dll",
         "C:\\Users\\yrn1hc\\.nuget\\packages\\uipath.vision/1.4.0\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\yrn1hc\\.nuget\\packages\\uipath.vision/1.4.0\\lib/net452/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\yrn1hc\\.nuget\\packages\\uipath.vision/1.4.0\\lib/net452/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\yrn1hc\\.nuget\\packages\\uipath.vision/1.4.0\\lib/net452/UiPath.Vision.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "Custom.Activities.VariableComparer",
+        "Version": "2.1.3"
+      },
+      "Assemblies": [
+        "C:\\Users\\yrn1hc\\.nuget\\packages\\custom.activities.variablecomparer/2.1.3\\lib/CustomActivities.VariableComparer.Design.dll",
+        "C:\\Users\\yrn1hc\\.nuget\\packages\\custom.activities.variablecomparer/2.1.3\\lib/CustomActivities.VariableComparer.dll",
+        "C:\\Users\\yrn1hc\\.nuget\\packages\\custom.activities.variablecomparer/2.1.3\\lib/Newtonsoft.Json.dll"
       ]
     }
   ],
@@ -128,9 +166,19 @@
       "Version": "2.13.5",
       "Dependencies": []
     },
+    "Custom.Activities.VariableComparer": {
+      "Id": "Custom.Activities.VariableComparer",
+      "Version": "2.1.3",
+      "Dependencies": []
+    },
     "DocumentFormat.OpenXml": {
       "Id": "DocumentFormat.OpenXml",
       "Version": "2.5.0",
+      "Dependencies": []
+    },
+    "ExchangeSharedMailBoxActivities": {
+      "Id": "ExchangeSharedMailBoxActivities",
+      "Version": "1.0.0",
       "Dependencies": []
     },
     "Extended.Wpf.Toolkit": {
@@ -178,8 +226,18 @@
         }
       ]
     },
+    "RBanda.TestReportGenerator.Activities": {
+      "Id": "RBanda.TestReportGenerator.Activities",
+      "Version": "1.4.1",
+      "Dependencies": []
+    },
     "SharpZipLib": {
       "Id": "SharpZipLib",
+      "Version": "1.0.0",
+      "Dependencies": []
+    },
+    "SmartLogActivities": {
+      "Id": "SmartLogActivities",
       "Version": "1.0.0",
       "Dependencies": []
     },

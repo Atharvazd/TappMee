@@ -41,6 +41,17 @@
           "lib/net40-client/CsvHelper.dll": {}
         }
       },
+      "Custom.Activities.VariableComparer/2.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/CustomActivities.VariableComparer.Design.dll": {},
+          "lib/CustomActivities.VariableComparer.dll": {},
+          "lib/Newtonsoft.Json.dll": {}
+        }
+      },
       "DocumentFormat.OpenXml/2.5.0": {
         "type": "package",
         "compile": {
@@ -48,6 +59,15 @@
         },
         "runtime": {
           "lib/DocumentFormat.OpenXml.dll": {}
+        }
+      },
+      "ExchangeSharedMailBoxActivities/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/ExchangeSharedMailBoxActivities.dll": {}
         }
       },
       "Extended.Wpf.Toolkit/2.8.0": {
@@ -167,6 +187,15 @@
           "lib/net45/NPOI.dll": {}
         }
       },
+      "RBanda.TestReportGenerator.Activities/1.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/TestReportGenerator.dll": {}
+        }
+      },
       "SharpZipLib/1.0.0": {
         "type": "package",
         "compile": {
@@ -174,6 +203,15 @@
         },
         "runtime": {
           "lib/net45/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "SmartLogActivities/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/DeveloperLog.dll": {}
         }
       },
       "UiPath/10.0.7004.31775": {
@@ -462,6 +500,19 @@
         "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.xml"
       ]
     },
+    "Custom.Activities.VariableComparer/2.1.3": {
+      "sha512": "ZHtAMsmPbBPZQkUJbApG2TZK1ILR5r7jKFkwqxZdy3MVFhq8bpXhqXRuVASXitX9Afj/xjVaainnVZ0FVRn5mQ==",
+      "type": "package",
+      "path": "custom.activities.variablecomparer/2.1.3",
+      "files": [
+        ".nupkg.metadata",
+        "custom.activities.variablecomparer.2.1.3.nupkg.sha512",
+        "custom.activities.variablecomparer.nuspec",
+        "lib/CustomActivities.VariableComparer.Design.dll",
+        "lib/CustomActivities.VariableComparer.dll",
+        "lib/Newtonsoft.Json.dll"
+      ]
+    },
     "DocumentFormat.OpenXml/2.5.0": {
       "sha512": "H5jnox0hcLwzAjrpNqDPIItjh7dplF1kk1z8LatpI2h75wBgps1MepEttJFKs7xedQReCMHA0tGpNI0H2B+Mrg==",
       "type": "package",
@@ -471,6 +522,17 @@
         "documentformat.openxml.2.5.0.nupkg.sha512",
         "documentformat.openxml.nuspec",
         "lib/DocumentFormat.OpenXml.dll"
+      ]
+    },
+    "ExchangeSharedMailBoxActivities/1.0.0": {
+      "sha512": "qefbl87MoHadnvK+3uu0Vtpte1JBC3wzfKk15NTUokgcJ0a1Y/UYDO14DzkdOMGDEv8pUgvOKp5GkQ9KpLAW+w==",
+      "type": "package",
+      "path": "exchangesharedmailboxactivities/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "exchangesharedmailboxactivities.1.0.0.nupkg.sha512",
+        "exchangesharedmailboxactivities.nuspec",
+        "lib/ExchangeSharedMailBoxActivities.dll"
       ]
     },
     "Extended.Wpf.Toolkit/2.8.0": {
@@ -629,6 +691,17 @@
         "npoi.nuspec"
       ]
     },
+    "RBanda.TestReportGenerator.Activities/1.4.1": {
+      "sha512": "ENyfOQ9tNQmUYYZUUyA2DPGb6V86dZUzAXjMam82VNb7irq2nSU4pkFSL8v0XWMFpvNW7OQtEt2zklkl5yWS/g==",
+      "type": "package",
+      "path": "rbanda.testreportgenerator.activities/1.4.1",
+      "files": [
+        ".nupkg.metadata",
+        "lib/TestReportGenerator.dll",
+        "rbanda.testreportgenerator.activities.1.4.1.nupkg.sha512",
+        "rbanda.testreportgenerator.activities.nuspec"
+      ]
+    },
     "SharpZipLib/1.0.0": {
       "sha512": "YuYztmY3jEb21F6e5LIPHJjApdtzdCPQ284UzsCKNfkgW71bukFHJES6RbKi+wm053XzFg0LX5/2vj/9gl8F/g==",
       "type": "package",
@@ -641,6 +714,17 @@
         "lib/netstandard2.0/ICSharpCode.SharpZipLib.xml",
         "sharpziplib.1.0.0.nupkg.sha512",
         "sharpziplib.nuspec"
+      ]
+    },
+    "SmartLogActivities/1.0.0": {
+      "sha512": "yvUD7sODMwjc7T5SjWiCmhsBBopM/f3FYHseucgZy95ttebTkRoGcJRdxDJLwuwvbM6ekHsPVKvpLW9M7vlCWA==",
+      "type": "package",
+      "path": "smartlogactivities/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "lib/DeveloperLog.dll",
+        "smartlogactivities.1.0.0.nupkg.sha512",
+        "smartlogactivities.nuspec"
       ]
     },
     "UiPath/10.0.7004.31775": {
@@ -910,6 +994,10 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
+      "Custom.Activities.VariableComparer >= 2.1.3 <= 2.1.3",
+      "ExchangeSharedMailBoxActivities >= 1.0.0 <= 1.0.0",
+      "RBanda.TestReportGenerator.Activities >= 1.4.1 <= 1.4.1",
+      "SmartLogActivities >= 1.0.0 <= 1.0.0",
       "UiPath.Excel.Activities >= 2.5.2 <= 2.5.2",
       "UiPath.Mail.Activities >= 1.3.0 <= 1.3.0",
       "UiPath.System.Activities >= 19.3.0 <= 19.3.0",
@@ -930,6 +1018,26 @@
     "frameworks": {
       "net461": {
         "dependencies": {
+          "Custom.Activities.VariableComparer": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[2.1.3, 2.1.3]"
+          },
+          "ExchangeSharedMailBoxActivities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0, 1.0.0]"
+          },
+          "RBanda.TestReportGenerator.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.4.1, 1.4.1]"
+          },
+          "SmartLogActivities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0, 1.0.0]"
+          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test-Suite name="UiPath Project - Test Automation" total="2" passed="2" failures="0" execution-date="05/10/2019 22:14:24" total-time="00:00:58">
+  <Result>
+    <TestScenario>Login_ValidData_Success</TestScenario>
+    <TestName>Login_ValidData_Success</TestName>
+    <Started>05/10/2019 22:13:57</Started>
+    <Ended>05/10/2019 22:14:24</Ended>
+    <Status>PASSED</Status>
+  </Result>
+  <Result>
+    <TestScenario>SignUp_ValidData_Success</TestScenario>
+    <TestName>SignUp_ValidData_Success</TestName>
+    <Started>05/10/2019 22:14:25</Started>
+    <Ended>05/10/2019 22:14:56</Ended>
+    <Status>PASSED</Status>
+  </Result>
+</Test-Suite>
